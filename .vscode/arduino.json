@@ -1,0 +1,7 @@
+{
+    "port": "COM3",
+    "board": "arduino:avr:uno",
+    "programmer": "arduino:avrisp",
+    "sketch": "stepper_controller.ino",
+    "output": "../ArduinoOutput"
+}
