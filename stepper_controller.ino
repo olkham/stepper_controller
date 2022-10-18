@@ -1,6 +1,9 @@
 #include <AccelStepper.h>
 #include <MultiStepper.h>
 
+
+//TODO update pin convention to support ESP8266
+//Currently using Arduino pin numbers
 #define Y_STEP_PIN 2
 #define Y_DIR_PIN 5
 
@@ -15,6 +18,7 @@ boolean newData = false;
 bool first_run = true;
 int steps = 0;
 float max_speed = 10000;
+//TODO - when running two motors this speed is effectvly halved...
 
 int x_steps, y_steps;
 
